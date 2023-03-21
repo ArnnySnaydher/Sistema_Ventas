@@ -211,6 +211,7 @@
             this.Controls.Add(this.menuTitulo);
             this.MainMenuStrip = this.menu;
             this.Name = "inicio";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.inicio_Load);
             this.menu.ResumeLayout(false);
